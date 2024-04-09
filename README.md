@@ -4,4 +4,4 @@
 项目维护者不对任何因使用本项目而造成的直接或间接损失承担责任。项目的使用者在使用本项目时，应遵守适用的法律法规，并承担全部责任。
 
 ## 使用
-curl -sS -O https://raw.githubusercontent.com/ecouus/eco.sh/eco.sh && chmod +x eco.sh && ./eco.sh
+`curl -sS -O https://raw.githubusercontent.com/ecouus/eco.sh/eco.sh && chmod +x eco.sh && ./eco.sh`
