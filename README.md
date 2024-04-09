@@ -8,4 +8,4 @@
 `yum update -y && yum install curl -y`   CentOS/Fedora<br>
 `apt-get update -y && apt-get install curl` -y   Debian/Ubuntu<br>
 远程下载代码<br>
-`curl -sS -O https://raw.githubusercontent.com/ecouuc/shell/main/eco.sh && sudo chmod +x eco.sh && ./eco.sh`
+`curl -sS -O https://raw.githubusercontent.com/ecouus/eco.sh/main/eco.sh && sudo chmod +x eco.sh && ./eco.sh`
