@@ -2,7 +2,7 @@
 #安装weget curl依赖包
 #yum update -y && yum install curl -y #CentOS/Fedora
 #apt-get update -y && apt-get install curl -y #Debian/Ubuntu
-#远程下载代码curl -sS -O https://raw.githubusercontent.com/ecouuc/shell/main/eco.sh && sudo chmod +x eco.sh && ./eco.sh
+#远程下载代码curl -sS -O https://raw.githubusercontent.com/ecouus/eco.sh/main/eco.sh && sudo chmod +x eco.sh && ./eco.sh
 #!/bin/bash
 ln -sf ~/eco.sh /usr/local/bin/e
 
