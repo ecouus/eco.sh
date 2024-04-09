@@ -4,4 +4,8 @@
 项目维护者不对任何因使用本项目而造成的直接或间接损失承担责任。项目的使用者在使用本项目时，应遵守适用的法律法规，并承担全部责任。
 
 ## 使用
-`curl -sS -O https://raw.githubusercontent.com/ecouus/eco.sh/eco.sh && chmod +x eco.sh && ./eco.sh`
+安装weget curl依赖包
+`yum update -y && yum install curl -y`   CentOS/Fedora
+`apt-get update -y && apt-get install curl` -y   Debian/Ubuntu
+远程下载代码
+`curl -sS -O https://raw.githubusercontent.com/ecouuc/shell/main/eco.sh && sudo chmod +x eco.sh && ./eco.sh`
