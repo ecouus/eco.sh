@@ -1,9 +1,10 @@
 #!/bin/bash
-#安装weget curl依赖包
-#yum update -y && yum install curl -y #CentOS/Fedora
-#apt-get update -y && apt-get install curl -y #Debian/Ubuntu
-#远程下载代码curl -sS -O https://raw.githubusercontent.com/ecouus/eco.sh/main/eco.sh && sudo chmod +x eco.sh && ./eco.sh
-#!/bin/bash
+#安装curl sudo依赖包
+#apt update -y && apt install curl -y && apt install sudo -y` Debian/Ubuntu
+#yum update -y && yum install curl -y && yum install sudo -y` #CentOS/Fedora
+#远程下载代码<br>
+#curl -sS -O https://raw.githubusercontent.com/ecouus/eco.sh/main/eco.sh && sudo chmod +x eco.sh && ./eco.sh
+
 ln -sf ~/eco.sh /usr/local/bin/e
 
 
