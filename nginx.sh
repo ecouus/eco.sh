@@ -5,7 +5,7 @@
 #远程下载代码curl -sS -O https://raw.githubusercontent.com/ecouus/eco.sh/main/nginx.sh && sudo chmod +x nginx.sh && ./nginx.sh
 
 
-ln -sf ~/nginx.sh /usr/local/bin/e
+ln -sf ~/nginx.sh /usr/local/bin/ng
 
 
 ip_address() {
