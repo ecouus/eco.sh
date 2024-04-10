@@ -4,8 +4,9 @@
 项目维护者不对任何因使用本项目而造成的直接或间接损失承担责任。项目的使用者在使用本项目时，应遵守当地的法律法规，并自行承担全部责任。<br>
 
 ## 使用
-安装weget curl依赖包<br>
-`yum update -y && yum install curl -y`   CentOS/Fedora<br>
-`apt-get update -y && apt-get install curl` -y   Debian/Ubuntu<br>
+安装curl sudo依赖包<br>
+`apt update -y && apt install curl -y && apt install sudo -y` Debian/Ubuntu<br>
+`yum update -y && yum install curl -y && yum install sudo -y` #CentOS/Fedora<br>   
+
 远程下载代码<br>
 `curl -sS -O https://raw.githubusercontent.com/ecouus/eco.sh/main/eco.sh && sudo chmod +x eco.sh && ./eco.sh`
