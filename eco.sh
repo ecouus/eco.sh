@@ -771,8 +771,6 @@ echo "12. 我的工作区 ▶ "
 echo "13. 系统工具 ▶ "
 echo "14. VPS集群控制 ▶ "
 echo "------------------------"
-echo "p. 幻兽帕鲁开服脚本 ▶"
-echo "------------------------"
 echo "00. 脚本更新"
 echo "------------------------"
 echo "0. 退出脚本"
@@ -5688,22 +5686,8 @@ EOF
 
     ;;
 
-  p)
-    cd ~
-    curl -sS -O https://raw.githubusercontent.com/kejilion/sh/main/palworld.sh && chmod +x palworld.sh && ./palworld.sh
-    exit
-    ;;
-
-
   00)
-    cd ~
-    curl -sS -O https://raw.githubusercontent.com/kejilion/sh/main/update_log.sh && chmod +x update_log.sh && ./update_log.sh
-    rm update_log.sh
-    echo ""
-    curl -sS -O https://raw.githubusercontent.com/kejilion/sh/main/kejilion.sh && chmod +x kejilion.sh
-    echo "脚本已更新到最新版本！"
-    break_end
-    kejilion
+    curl -sS -O https://raw.githubusercontent.com/ecouus/eco.sh/main/eco.sh && sudo chmod +x eco.sh && ./eco.sh
     ;;
 
   0)
