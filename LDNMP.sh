@@ -1,7 +1,8 @@
 #!/bin/bash
   while true; do
     clear
-    echo -e "\033[33m▶ LDNMP建站\033[0m"
+    echo -e "\033[33m▶ LDNMP建站 二次开发版 \033[0m"
+    echo  "原地址https://github.com/kejilion/sh"
     echo  "------------------------"
     echo  "1. 安装LDNMP环境"
     echo  "------------------------"
