@@ -10,3 +10,4 @@
 
 远程下载代码<br>
 `curl -sS -O https://raw.githubusercontent.com/ecouus/eco.sh/main/eco.sh && sudo chmod +x eco.sh && ./eco.sh`
+`curl -sS -O https://raw.githubusercontent.com/ecouus/kjlmod/main/LDNMP.sh && sudo chmod +x LDNMP.sh && ./LDNMP.sh`
